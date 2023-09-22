@@ -1,0 +1,123 @@
+form{
+    position: relative;
+    height: clamp(511px,72vh,511px);
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4px;
+    /* background-color: red; */
+}
+input{
+    display: block;
+    height: clamp(42px,6vh,42px);
+    width: clamp(245px,16vw,245px);
+    margin: 12px;
+    padding: 0px 15px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(191deg, rgb(0 0 0 / 66%) 0%, rgb(0 0 0 / 39%) 35%, rgb(0 0 0 / 22%) 100%);
+    color: #fff;
+}
+#submit{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    font-family: "logo";
+    width: clamp(138px,9vw,138px);
+    height: clamp(42px,6vh,42px);
+    font-size: 1.5rem;
+    border-radius: 0px 28px 0px 30px;
+}
+#Headline-2-wapper{
+    width: 100%;
+    height: clamp(120px,17vh,120px);
+}
+#Headline-2{
+    display: none;
+    color: #fff;
+    font-size: 4rem;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: 'logo';
+}
+#para{
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: clamp(300px,30vw,460px);
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+/* Animations */
+.Ani-a{
+    animation: A 0.9s both ;
+    animation-delay: 2s;
+}
+@keyframes A {
+    0%{
+        opacity: 0;
+        transform: translateY(-30px);
+    }   
+}
+.Ani-b{
+    animation: b 1s both;
+}
+@keyframes b {
+    0%{
+        opacity: 0;
+        transform: translateY(-50px);
+    }   
+}
+.Ani-c{
+    animation: c 1.2s both;
+    animation-delay: 0.1s;
+}
+@keyframes c {
+    0%{
+        opacity: 0;
+        transform: translateY(-50px);
+    }   
+}
+.Ani-d{
+    animation: d 1.5s both;
+    animation-delay: 0.2s;
+}
+@keyframes d {
+    0%{
+        opacity: 0;
+        transform: translateY(-50px);
+    }   
+}
+.Ani-e{
+    animation: e 1.6s both;
+    animation-delay: 0.3s;
+}
+@keyframes e {
+    0%{
+        opacity: 0;
+        transform: translateY(-50px);
+    }   
+}
+.Ani-f{
+    animation: f 1.6s both;
+    animation-delay: 1s;
+}
+@keyframes f {
+    0%{
+        opacity: 0;
+        transform: translateY(-20px);
+    }   
+}
+.Ani-g{
+    animation: g 1.6s both;
+    animation-delay: 1.2s;
+}
+@keyframes g {
+    0%{
+        opacity: 0;
+        transform: translateY(-20px);
+    }   
+}

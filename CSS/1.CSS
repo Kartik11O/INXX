@@ -1,0 +1,86 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#Phone-logo{
+    display: none;
+}
+/* Section-1 holds the Main Contant */
+
+#Section-1 {
+    position: relative;
+    width: clamp(300px, 100vw, 100%);
+    height: clamp(747px, 100vh, 747px);
+    background-color: red;
+}
+
+video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#Container-1 {
+    position: relative;
+    width: clamp(300px, 100vw, 1536px);
+    height: clamp(747px, 100vh, 747px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Holder-Form {
+    position: relative;
+    display: flex;
+    width: clamp(300px, 25vw, 384px);
+    height: clamp(629px, 88vh, 629px);
+    background-color: #000000d9;
+    transition: 0.5s;
+}
+
+#Headline {
+    font-size: 13rem;
+    color: #fff;
+    font-family: "logo";
+    letter-spacing: 3px;
+}
+
+#Logo {
+    position: relative;
+    width: clamp(300px, 25vw, 384px);
+    height: clamp(629px, 88vh, 629px);
+    background: #00000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+    background: linear-gradient(191deg, rgb(0 0 0 / 40%) 0%, rgb(5 5 95 / 9%) 35%, rgb(95 95 96 / 52%) 100%);
+}
+
+#Form-wapper {
+    position: relative;
+    display: flex;
+    width: 0vw;
+    height: clamp(629px, 88vh, 629px);
+    background: linear-gradient(191deg, rgb(0 0 0 / 40%) 0%, rgb(5 5 95 / 9%) 35%, rgb(95 95 96 / 52%) 100%);
+    transition: 0.5s;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.Form-wapper-Opener {
+    width: clamp(300px, 35vw, 537px) !important;
+}
+
+/* Class for Opening Form */
+.Holder-Form-Opener {
+    width: clamp(300px, 60vw, 921px) !important;
+
+}
+
+.Holder-Form-Closer {
+    width: clamp(300px, 25vw, 384px) !important;
+}

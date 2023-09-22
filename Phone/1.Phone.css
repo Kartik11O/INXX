@@ -1,0 +1,38 @@
+html{
+    font-size: 71%;
+}
+
+#Section-1 {
+    height: clamp(928px,110vh,928px);
+}
+#Container-1 {
+    height: clamp(915px,100vh,915px);
+}
+#Form-wapper {
+    position: absolute;
+    z-index: 99;
+}
+#Logo {
+    height: clamp(692px,82vh,692px);
+    /* background: #f40000; */
+}
+#Phone-logo {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: clamp(64px,7.6vh,64px);
+    background-color: rgb(0, 0, 0);
+    display: block;
+}
+#Headline-btn{
+    font-family: 'logo';
+    color: #ffffff;
+    margin: auto;
+    text-align: center;
+    font-size: 5rem;
+    letter-spacing: 4px;
+    display: none;
+}
+#Holder-Form {
+    height: clamp(693.8px,75.8vh,693.8px);
+}
