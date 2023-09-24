@@ -3,6 +3,7 @@ body {
     padding: 0px;
     box-sizing: border-box;
     overflow-x: hidden;
+    background-color: #00000000;
 }
 #Phone-logo{
     display: none;
@@ -13,7 +14,7 @@ body {
     position: relative;
     width: clamp(300px, 100vw, 100%);
     height: clamp(747px, 100vh, 747px);
-    background-color: red;
+    background-color: rgb(0, 0, 0);
 }
 
 video {
