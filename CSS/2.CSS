@@ -46,7 +46,7 @@ input{
 #para{
     color: #fff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: clamp(300px,30vw,460px);
+    width: clamp(276px,30vw,460px);
     text-align: center;
     font-size: 1.1rem;
 }
