@@ -9,7 +9,7 @@ var Headline_btn = document.getElementById("Headline-btn")
 $(window).on('load', ()=>{
     setTimeout(function(){
         $("#loading").fadeOut(1000)
-        document.getElementById('vid').play();
+        // document.getElementById('vid').play();
     },1000)
 })
 
@@ -23,7 +23,7 @@ function Open_Close(){
         Form.style.display = "flex"
         Headline_btn.style.display = "block"
         // headline_1.fadeOut(1000)
-        $("#Headline").fadeOut(1000)
+        // $("#Headline").fadeOut(1000)
             
         
     }
@@ -36,7 +36,7 @@ function Open_Close(){
         Form.style.display = "none"
         Headline_btn.style.display = "none"
         // headline_1.fadeIn(1000)
-        $("#Headline").fadeIn(1000)
+        // $("#Headline").fadeIn(1000)
     }
 }
 
